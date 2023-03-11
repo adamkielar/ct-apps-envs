@@ -172,6 +172,14 @@ resource containerApp 'Microsoft.App/containerApps@2022-10-01' = {
         allowInsecure: false
         external: true
         targetPort: 80
+        // ipSecurityRestrictions: [
+        //   {
+        //     action: 'string'
+        //     description: 'string'
+        //     ipAddressRange: 'string'
+        //     name: 'string'
+        //   }
+        // ]
       }
     }
     template: {
